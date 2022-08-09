@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="formScreen" class="toggle">
+        <div class="form">
+            <div class="input-container">
+                <form action="" class="submit">
+                    <h1 id="text-box">Embarque no foguete de novidades</h1>
+                    <div>
+                        <label for="submit">Nome:</label>
+                        <input type="text" placeholder="Digite seu nome"/>
+                    </div>
+                    <div>
+                        <label for="submit">E-mail:</label>
+                        <input type="email" placeholder="email@email.com" />
+                    </div>
+                    <div>
+                        <label for="submit">Telefone:</label>
+                        <input type="text" placeholder="+55 71 99999-9999"/>
+                    </div>
+                    <button>Inscreva-se</button>
+                </form> 
+                <p>Tecle <strong>'ESC'</strong> para fechar este.</p>
+            </div>
+        </div>
+    </div>
+    <header>
+        <img src="./assets/top-image.svg" alt=""  style="width:100%; position:absolute; margin-top: -20px;">
+    </header>
+    <main>
+        <div class="container">
+            <div> 
+                <h1>READY TO LAUNCH IN...</h1>
+                <ul>
+                    <li>Dias</li>
+                    <li>Horas</li>
+                    <li>Minutos</li>
+                    <li>Segundos</li>
+                </ul>
+                <div id="timer"></div>
+                <!--ol>
+                    <li>08</li>
+                    <li> : </li>
+                    <li>12</li>
+                    <li> : </li>
+                    <li>44</li>
+                    <li> : </li>
+                    <li>28</li>
+                </ol-->
+            </div>
+            <p>Inscreva-se para saber mais sobre o lançamento</p>
+            <button id="btn">Inscreva-se</button>
+        </div>
+        <div class="container">
+            <img src="./assets/rocket.svg" alt="" style="width:34vw">
+        </div>
+    </main>
+    <footer>
+        <img src="./assets/bottom-image.svg" alt="" style="width:100%; position:absolute; margin-top:-37px">
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
